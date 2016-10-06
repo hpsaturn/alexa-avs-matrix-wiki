@@ -72,6 +72,8 @@ That's it. The next time you **reboot**, the VNC server will restart automatical
 
 **Connecting to Raspberry Pi via VNC**
 
+Instructions are available for -
+
 - **Mac**: See https://www.raspberrypi.org/documentation/remote-access/vnc/mac.md
 - **Windows**: https://www.raspberrypi.org/documentation/remote-access/vnc/windows.md
 - **Linux**: https://www.raspberrypi.org/documentation/remote-access/vnc/linux.md
