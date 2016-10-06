@@ -1,4 +1,4 @@
-* [Home](https://github.com/ajotwani/clyde/wiki)
+* [Home](https://github.com/alexa/alexa-avs-sample-app/wiki)
 * **Step-by-step Guides**
   * [Raspberry Pi](Raspberry-Pi)
   * [Linux](Linux)
