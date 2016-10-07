@@ -72,10 +72,6 @@ That's it. The next time you **reboot**, the VNC server will restart automatical
 
 **Connecting to Raspberry Pi via VNC**
 
-Instructions are available for -
-
-- **Mac**: See https://www.raspberrypi.org/documentation/remote-access/vnc/mac.md
-- **Windows**: https://www.raspberrypi.org/documentation/remote-access/vnc/windows.md
-- **Linux**: https://www.raspberrypi.org/documentation/remote-access/vnc/linux.md
+Please [download VNC viewer](https://www.realvnc.com/download/viewer) (available for Mac, Linux, Windows, and more), and follow the [instructions](https://www.raspberrypi.org/documentation/remote-access/vnc/) to connect to your Pi over VNC.
 
 **You may now disconnect the Monitor, keyboard and mouse (if you like)**. Now with SSH (allows remote access to the terminal) and VNC (allows you to remote control the Raspberry Pi’s desktop interface) installed, the external monitor is optional. Feel free to disconnect it from the Raspberry Pi.
