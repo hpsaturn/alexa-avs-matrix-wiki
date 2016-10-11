@@ -63,7 +63,7 @@ Make note of the following parameters. You'll need these in a minute or two.
 
 1. Download [VLC media player here](http://www.videolan.org/). The architecture (32 or 64-bit) of the VLC media player must match the architecture of the Java Developement Kit (JDK) you have installed (or will install later in these instructions).
 2. After you've installed VLC, set the following environment variables:
-   * **LD_LIBRARY_PATH**: point this to the VLC libs folder.
+   * **VLC_PATH**: point this to the VLC libs folder.
      * Sample Mac OS X location: `/Applications/VLC.app/Contents/MacOS/lib`
    * **VLC_PLUGIN_PATH**: point this to the VLC plugins folder.
      * Sample Mac OS X location: `/Applications/VLC.app/Contents/MacOS/plugins`
