@@ -204,7 +204,7 @@ Now that you've set up your companion site (server)/companion app for authentica
     `provisioningMethod`: If you want to use either the Android or iOS sample app, enter companionApp. Otherwise, enter companionService.
 
 2. Save the config.json.
-3. In that same text editor, open `{REFERENCE_IMPLEMENTATION}/samples/javaclient/pom.xml` and locate `{alpn-boot.version}xxx{/alpn-boot.version}`. Confirm that the ALPN version matches your JDK version using the table located at [eclipse.org/jetty](http://www.eclipse.org/jetty/). If the versions match no further action is necessary. If the versions do not match, update the `pom.xml` file with the correct ALPN version.
+3. In that same text editor, open `{REFERENCE_IMPLEMENTATION}/samples/javaclient/pom.xml` and locate `{alpn-boot.version}xxx{/alpn-boot.version}`. Confirm that the ALPN version matches your JDK version using the table located [here](http://www.eclipse.org/jetty/documentation/current/alpn-chapter.html#alpn-versions). If the versions match no further action is necessary. If the versions do not match, update the `pom.xml` file with the correct ALPN version.
 4. Open a terminal window.
 5. Change directories to `{REFERENCE_IMPLEMENTATION}/samples/javaclient`
 6. Run `mvn validate` to ensure the project is correct and that all necessary information is available.
