@@ -71,7 +71,7 @@ Make note of the following parameters. You'll need these in a minute or two.
 4. Ensure you have JDK version 8 installed. If JDK is not installed or you need to update from a previous version, [you can download version 8 here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
    **Note:** As mentioned earlier, please ensure that your JDK's architecture matches the architecture for VLC (Step 3).
 5. Download [Maven](https://maven.apache.org/download.cgi) and follow the instructions for [Installing Apache Maven](https://maven.apache.org/install.html).
-6. If you plan to authenticate using an Android companion app, download [Android Studio](). If you plan to authenticate using an iOS companion app, download [Xcode 7 for Mac from the Mac App Store](https://developer.apple.com/xcode/download/).
+6. If you plan to authenticate using an Android companion app, download [Android Studio](https://developer.android.com/studio/index.html). If you plan to authenticate using an iOS companion app, download [Xcode 7 for Mac from the Mac App Store](https://developer.apple.com/xcode/download/).
 
 ---
 
