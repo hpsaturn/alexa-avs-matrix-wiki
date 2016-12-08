@@ -1,6 +1,7 @@
 * [Home](https://github.com/alexa/alexa-avs-sample-app/wiki)
 * **Step-by-step Guides**
   * [Raspberry Pi](Raspberry-Pi)
+  * [Raspberry Pi + Conexant](Conexant2Mic-Raspberry-Pi)
   * [Linux](Linux)
   * [Mac](Mac)
   * [Windows](Windows)
