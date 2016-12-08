@@ -17,7 +17,7 @@ This project provides a step-by-step walkthrough to help you build a **hands-fre
 
 The AVS java sample app for Raspberry Pi has been updated for two changes:  
 
-1.	The sample app now supports GPIO triggers for use with the Conexant 2-Mic Development Kit for Amazon AVS. [Click here](../../wiki/Conexant2Mic-Raspberry-Pi) for step-by-step instructions.  
+1.	The sample app now supports GPIO triggers for use with the Conexant 2-Mic Development Kit for Amazon AVS. [Click here](Conexant2Mic-Raspberry-Pi) for step-by-step instructions.  
 2.	The sample app is now officially certified for media and music services.  
 
 **October 6, 2016:**
@@ -46,7 +46,7 @@ Use](https://developer.amazon.com/public/solutions/alexa/alexa-voice-service/con
 You can set up this project on the following platforms. Please choose the platform you'd like to set this up on -
 
 * [Raspberry Pi](Raspberry-Pi), or
-* *New!* [Raspberry Pi + Conexant 2-Mic Development Kit for Amazon AVS](../../wiki/Conexant2Mic-Raspberry-Pi), or
+* *New!* [Raspberry Pi + Conexant 2-Mic Development Kit for Amazon AVS](Conexant2Mic-Raspberry-Pi), or
 * [Linux](Linux), or
 * [Mac](Mac), or
 * [Windows](Windows)
