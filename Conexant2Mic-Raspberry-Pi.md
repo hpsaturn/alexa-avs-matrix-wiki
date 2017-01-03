@@ -101,7 +101,7 @@ Follow the steps [here](Create-Security-Profile) to register your product and cr
 
 Make note of the following parameters. You'll need these in [Step 5](Raspberry-Pi#step-5-update-the-install-script-with-your-credentials) below.
 
-* `ProductID` (also refferred to as Device Type ID in the Amazon Developer Portal),
+* `ProductID` (also referred to as Device Type ID in the Amazon Developer Portal),
 * `ClientID`, and
 * `ClientSecret`
 
