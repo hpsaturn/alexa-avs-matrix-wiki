@@ -63,9 +63,10 @@ pcm.!default
 ### Step 3: Run your web service, sample app and wake word engine
 Return to [Raspberry Pi](Raspberry-Pi) documentation and execute **Step 7** but in the last terminal only choose `sensory` wake word engine with:
 
+``` bash
   cd ~/Desktop/alexa-avs-sample-app/samples
 	cd wakeWordAgent/src && ./wakeWordAgent -e sensory
-
+``` 
 
 ### Step 4: Talk to Alexa
 You can now talk to Alexa by simply using the wake word "Alexa". Try the following -
