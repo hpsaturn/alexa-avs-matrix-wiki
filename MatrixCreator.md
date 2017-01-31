@@ -38,6 +38,8 @@ The original Alexa on a Pi project required manual download of libraries/depende
 ### Step 1: Setting up your Pi
 Configure your RaspberryPi like a original Alexa documentation, for this please completing steps: **1,2,3,4,5 and 6** from original documentation: [Raspberry Pi](Raspberry-Pi)
 
+---
+
 ### Step 2: Override ALSA configuration
 On your RaspberryPi home: `/home/pi` edit `.asoundrc` file and put this (If your prefer, make a backup):
 ``` javascript
@@ -60,15 +62,31 @@ pcm.!default
   }
 }
 ```
-### Step 3: Run your web service, sample app and wake word engine
-Return to [Raspberry Pi](Raspberry-Pi) documentation and execute **Step 7** but in the last terminal only choose `sensory` wake word engine with:
 
+---
+
+### Step 3: Install MATRIX software and reboot
 ``` bash
-  cd ~/Desktop/alexa-avs-sample-app/samples
-	cd wakeWordAgent/src && ./wakeWordAgent -e sensory
+echo "deb http://packages.matrix.one/matrix-creator/ ./" | sudo tee --append /etc/apt/sources.list;
+sudo apt-get update;
+sudo apt-get upgrade;
+sudo apt-get install libzmq3-dev xc3sprog matrix-creator-openocd wiringpi cmake g++ git;
+sudo apt-get install matrix-creator-init matrix-creator-malos
+sudo reboot
+```
+
+---
+
+### Step 4: Run your web service, sample app and wake word engine
+Return to [Raspberry Pi](Raspberry-Pi) documentation and execute **Step 7** but in the last terminal only choose `sensory` wake word engine with:
+``` bash
+cd ~/Desktop/alexa-avs-sample-app/samples
+cd wakeWordAgent/src && ./wakeWordAgent -e sensory
 ``` 
 
-### Step 4: Talk to Alexa
+---
+
+### Step 5: Talk to Alexa
 You can now talk to Alexa by simply using the wake word "Alexa". Try the following -
 
 Say "Alexa", then wait for the beep. Now say "what's the time?"
