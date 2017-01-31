@@ -51,8 +51,8 @@ pcm.!default
   }
   capture.pcm {
     type file
-    file "/tmp/matrix_micarray_channel_8"
-    infile "/tmp/matrix_micarray_channel_8"
+    file "/tmp/matrix_micarray_channel_0"
+    infile "/tmp/matrix_micarray_channel_0"
     format "raw"
     slave {
         pcm sc
