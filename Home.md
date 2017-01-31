@@ -47,6 +47,7 @@ You can set up this project on the following platforms. Please choose the platfo
 
 * [Raspberry Pi](Raspberry-Pi), or
 * *New!* [Raspberry Pi + Conexant 2-Mic Development Kit for Amazon AVS](Conexant2Mic-Raspberry-Pi), or
+* *New!* [Raspberry Pi + MATRIX Creator] (MatrixCreator), or
 * [Linux](Linux), or
 * [Mac](Mac), or
 * [Windows](Windows)
